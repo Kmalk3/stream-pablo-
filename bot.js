@@ -156,7 +156,7 @@ bot.on('guildMemberAdd', member => {
 const Ethan= member.guild.channels.get("510809363934347284");
 if(!Ethan) return;
 if(Ethan) {
-setTimeout(() => Ethan.send('**Welcome To Paranoia.**'), 6000)
+setTimeout(() => Ethan.send('**Welcome To Paranoia ..**'), 6000)
 }
 });
 

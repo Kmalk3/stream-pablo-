@@ -1,10 +1,10 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({autoReconnect:true});
+const bot = new Discord.Client({sisableEveryone: true})
 const fs = require("fs");
 const cheerio = require('cheerio');
 const snekfetch = require('snekfetch');
 const querystring = require('querystring');
-bot = new Discord.Client({sisableEveryone: true})
 
 bot.on("ready", () => {
   console.log("By shadow");

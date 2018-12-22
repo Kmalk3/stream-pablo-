@@ -1,4 +1,4 @@
-600060006000﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const bot = new Discord.Client({autoReconnect:true});
 const fs = require("fs");
 const cheerio = require('cheerio');

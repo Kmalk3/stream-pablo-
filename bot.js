@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({autoReconnect:true});
-const bot = new Discord.Client({sisableEveryone: true})
 const fs = require("fs");
 const cheerio = require('cheerio');
 const snekfetch = require('snekfetch');
